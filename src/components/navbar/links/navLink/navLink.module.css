@@ -6,6 +6,11 @@
     text-align: center;
 }
 
+.container:hover{
+    transition: 0.25s ease;
+    transform: scale(1.02);
+}
+
 .active{
     background-color: var(--text);
     color: var(--bg) ;

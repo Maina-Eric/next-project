@@ -13,10 +13,16 @@
     width: 90%;
     height: 400px;
     position: relative;
+    
 }
 
 .img{
     object-fit: cover;
+}
+
+.imgContainer:hover {
+    transform: scale(1.03);
+    transition: 0.25s ease;
 }
 
 .date{

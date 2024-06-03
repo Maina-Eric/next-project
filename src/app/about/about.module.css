@@ -36,6 +36,10 @@
     gap: 10px;
 
 }
+.box:hover {
+    transition: 0.5s ease;
+    transform: scale(1.05);
+}
 
 .box h1{
     color: var(--btn);
@@ -47,4 +51,16 @@
 
 .img{
     object-fit: contain;
+}
+
+@media (max-width:768px){
+    .container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .boxes{
+        flex-direction: column;
+        gap: 50px;
+    }
 }

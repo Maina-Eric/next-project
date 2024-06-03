@@ -29,7 +29,7 @@
     border-radius: 5px;
     border: none;
     outline: none;
-    background-color: var(--bgSoft);
+    background-color: rgb(189, 188, 188);
     color: var(--text);
 }
 
@@ -41,4 +41,10 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+@media (max-width:768px){
+    .container{
+        flex-direction: column;
+    }
 }

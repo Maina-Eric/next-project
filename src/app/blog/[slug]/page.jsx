@@ -17,8 +17,8 @@ const SinglePostPage = () => {
             <Image 
               src="https://images.pexels.com/photos/24415132/pexels-photo-24415132/free-photo-of-people-sitting-at-tables-outside-a-cafe.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
               alt="Author Image" 
-               width={50}
-               height={50}
+              width={50}
+              height={50}
               className={styles.avatar}/>
             <div className={styles.detailText}>
               <span className={styles.detailTitle}>Author</span>
