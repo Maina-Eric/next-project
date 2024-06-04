@@ -13,7 +13,7 @@
     width: 90%;
     height: 400px;
     position: relative;
-    
+    border-radius: 10px;
 }
 
 .img{
@@ -21,8 +21,9 @@
 }
 
 .imgContainer:hover {
+    transition: 0.25s ease-out;
     transform: scale(1.03);
-    transition: 0.25s ease;
+    
 }
 
 .date{
@@ -47,4 +48,3 @@
 .link{
     text-decoration: underline;
 }
-
