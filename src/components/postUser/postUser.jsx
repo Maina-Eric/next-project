@@ -1,12 +1,13 @@
-import styles from './postUser.module.css'
+import React from 'react'
+import styles from "./postUser.module.css"
 
-const PostUser = () => {
+const postUser = () => {
   return (
     <div className={styles.container}>
-        <span className={styles.title}>Author</span>
-        <span className={styles.username}>Irene</span>
+        <div className={styles.title}>Author</div>
+        <div className={styles.username}>Irene</div>
     </div>
   )
 }
 
-export default PostUser;
+export default postUser

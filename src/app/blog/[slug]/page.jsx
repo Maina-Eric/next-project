@@ -39,7 +39,6 @@ const SinglePostPage = async ({params}) => {
               <span className={styles.detailTitle}>Author</span>
               <span className={styles.detailValue}>Irene</span>
             </div>
-            {/* <PostUser/> */}
             <div className={styles.detailText}>
               <span className={styles.detailTitle}>Published</span>
               <span className={styles.detailValue}>29.05.2024</span>
